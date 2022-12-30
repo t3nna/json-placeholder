@@ -1,0 +1,36 @@
+@use 'typo';
+@use '../abstracts/variables';
+
+body{
+  font-family: typo.$ff-primary;
+  background-color: variables.$clr-primary-400;
+}
+
+body{
+}
+
+#root > div {
+.theme-wrapper{
+
+  transition-property: color,background-color,border, border-color,text-decoration-color,fill,stroke,-webkit-text-decoration-color;
+  transition-duration: .5s;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+}
+  .theme-border-img{
+    img{
+      transition-property: color,background-color,border, border-color,text-decoration-color,fill,stroke,-webkit-text-decoration-color;
+      transition-duration: .5s;
+      transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
+  }
+
+  .theme-border, .theme-wrapper{
+    transition-property: color,background-color,border, border-color,text-decoration-color,fill,stroke,-webkit-text-decoration-color;
+    transition-duration: .5s;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+
+
+}

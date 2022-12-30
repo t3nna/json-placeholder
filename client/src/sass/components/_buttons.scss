@@ -1,0 +1,44 @@
+@use '../abstracts/variables';
+
+// Navbar theme switch
+
+.toggle-icons {
+  width: 20px;
+  height: 20px;
+}
+
+.theme-toggle {
+
+  display: inline-flex;
+  align-items: center;
+  background-color: variables.$clr-primary-600;
+  padding: 1px;
+  border-radius: 10rem;
+  //gap: .25rem;
+  cursor: pointer;
+
+  & > * {
+    padding: 0.5rem;
+    border-radius: 1.5rem;
+    outline: none;
+    border: none;
+    background-color: transparent;
+
+  }
+
+  //& > *:first-child{
+  //  background-color: transparent;
+  //}
+
+}
+
+.theme-active{
+  background-color: wheat;
+}
+
+.moon-icon, .sun-icon {
+  display: block;
+  vertical-align: center;
+  //border-radius: 10rem;
+  //padding: .25rem;
+}
