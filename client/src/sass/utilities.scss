@@ -7,6 +7,12 @@
   margin-inline: auto;
 }
 
+.container-inner-box{
+  padding: .5rem;
+  background-color: darkseagreen;
+  border-radius: 6px;
+}
+
 .flow > * + *{
   margin-top: var(--flow-spacer, 1.5rem)
 }
